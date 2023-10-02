@@ -6,24 +6,32 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color(0xFFD9958F),
-        body: Column(
-          children: [
-            const Spacer(),
-            const Text("hola",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 30,
-                )),
-            const Spacer(),
-            TextFormField(),
-            const Spacer(),
-            SizedBox(
-              height: 60,
-              width: 120,
-              child: InkWell(),
+      backgroundColor: Color.fromARGB(255, 58, 152, 175),
+      body: Row(
+        children: [
+          Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Columna 1'),
+                SizedBox(height: 20),
+                Image.asset("assets/hola.jpg"),
+                // Agrega otros widgets aquí en la primera columna
+              ],
             ),
-          ],
-        )); //Scaffold
+          ),
+          Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Columna 2'),
+                SizedBox(height: 20),
+                // Agrega otros widgets aquí en la segunda columna
+              ],
+            ),
+          ),
+        ],
+      ),
+    ); //Scaffold
   }
 }
