@@ -63,7 +63,7 @@ class LoginPage extends StatelessWidget {
                         ),
                         //const Spacer(),
                         const Divider(
-                          height: 15.0,
+                          height: 30.0,
                         ),
                         TextField(
                           enableInteractiveSelection: false,
@@ -83,7 +83,7 @@ class LoginPage extends StatelessWidget {
                         ),
 
                         const Divider(
-                          height: 15.0,
+                          height: 30.0,
                         ),
 
                         ElevatedButton(
