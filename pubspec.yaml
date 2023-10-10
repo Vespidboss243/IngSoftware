@@ -17,5 +17,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-assets:
-  - assets/UwU.jpg
+  
+  assets:
+    - assets/UwU.jpg
+    - assets/hola.jpg
+    - assets/casa.png
