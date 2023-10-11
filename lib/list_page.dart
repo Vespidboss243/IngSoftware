@@ -19,7 +19,7 @@ class ListPage extends StatelessWidget {
                 child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                  const SizedBox(height: 80),
+                  const SizedBox(height: 70),
                   Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 25),
                       child: Container(
